@@ -1,0 +1,392 @@
+.booking-page {
+  padding: 20px;
+}
+
+.booking-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.booking-page p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.booking-page input[type="text"],
+.booking-page input[type="email"],
+.booking-page input[type="tel"],
+.booking-page input[type="date"],
+.booking-page select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.booking-page input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.booking-page input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.booking-page .form-group {
+  margin-bottom: 20px;
+}
+
+.booking-page .form-group label {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.booking-page .form-group .form-check {
+  margin-top: 10px;
+}
+
+.booking-page .form-group .form-check label {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.booking-page .form-group .form-check input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline {
+  margin-right: 20px;
+}
+
+.booking-page .form-group .form-check-inline label {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+
+.booking-page .form-group .form-check-inline input[type="radio"] {
+  margin-right: 5px;
+}
+
+.booking-page .form-group .form-check-inline:last-child {
+  margin-right: 0;
+}
+

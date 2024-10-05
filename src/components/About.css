@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.strip {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.strip-img {
+    flex: 1;
+    position: relative;
+}
+
+.strip-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.strip-text {
+    flex: 1;
+    padding: 40px;
+}
+
+h1 {
+    color: #b5ff00; /* Bright green color */
+}
+
+p {
+    margin-bottom: 1em;
+}

@@ -1,0 +1,40 @@
+.gym-features {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature-card {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .feature-card img {
+    width: 100%;           /* Full width of the container */
+    height: auto;         /* Automatic height to maintain aspect ratio */
+    max-height: 200px;    /* Optional: A maximum height to keep them from getting too tall */
+    object-fit: contain;   /* Ensures the entire image is visible */
+    border-radius: 10px;   /* Keeps rounded corners */
+  }
+  
+  
+  
+  .feature-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #7FFF00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

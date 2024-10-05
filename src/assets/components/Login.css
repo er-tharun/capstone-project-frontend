@@ -1,0 +1,154 @@
+body {
+  flex justify-center items-center h-screen w-full;
+  bg-gradient-to-br from-gray-900 to-gray-800;
+  bg-cover bg-center bg-no-repeat;
+  overflow-hidden;
+}
+
+.container {
+  relative h-600 flex-basis-390;
+}
+
+.login-wrap,
+.signup-wrap {
+  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-90;
+  p-4;
+  opacity-0 visibility-hidden pointer-events-none;
+  transition-all duration-400 ease-in-out;
+}
+
+.active {
+  opacity-100 visibility-visible pointer-events-auto;
+  transform translate-x-1/2 -translate-y-1/2;
+}
+
+.title h1 {
+  text-3xl font-bold text-white;
+  pb-3;
+  relative;
+}
+
+.title h1::before {
+  absolute bottom-0 left-1/2 transform -translate-x-1/2;
+  h-2 w-14 bg-green-400 rounded-full;
+  clip-path polygon(0 0, 0% 100%, 100% 0);
+}
+
+form {
+  mt-6;
+}
+
+.input-area {
+  mt-6;
+  relative;
+  grid place-items-center;
+}
+
+.input-area input {
+  w-11/12 h-12 text-white text-lg;
+  border-2 border-white rounded-2xl;
+  outline-none bg-gray-900 bg-opacity-10 backdrop-filter blur;
+  p-2;
+  box-border;
+  transition-all duration-300 ease-in-out;
+}
+
+.input-area input:focus {
+  w-full;
+}
+
+.input-area label {
+  absolute top-1/2 left-6 transform -translate-y-1/2;
+  text-white text-lg;
+  transition-all duration-300 ease-in-out;
+}
+
+.input-area input:focus~label {
+  transform -translate-y-12 left-2;
+}
+
+.input-area input:valid~label {
+  transform -translate-y-12;
+}
+
+.forgot-pass {
+  mt-1;
+  relative;
+}
+
+.forgot-pass a {
+  absolute top-0 left-6;
+  text-white text-lg;
+  transition-all duration-300 ease-in-out;
+}
+
+.forgot-pass a:hover {
+  text-green-400;
+}
+
+.button-area {
+  mt-10;
+  w-full;
+  grid place-items-center;
+}
+
+button {
+  w-32 h-12 border-2 border-transparent rounded-2xl;
+  text-white text-lg;
+  cursor-pointer;
+  bg-green-400;
+  transition-all duration-300 ease-in-out;
+}
+
+button:hover {
+  w-1/2;
+  letter-spacing-2;
+  bg-transparent border-2 border-white;
+}
+
+.form-toggle-area {
+  mt-6;
+  flex justify-center;
+}
+
+.form-toggle-area p {
+  text-gray-300 text-lg;
+  text-center;
+}
+
+.form-toggle-area p span {
+  text-white text-lg;
+  cursor-pointer;
+  transition-all duration-300 ease-in-out;
+}
+
+.form-toggle-area p span:hover {
+  text-green-400;
+}
+
+@media screen and (max-width: 360px) {
+  .title h1 {
+    text-2xl;
+  }
+
+  .login-wrap,
+  .signup-wrap {
+    p-4;
+  }
+
+  .input-area input {
+    text-lg;
+  }
+
+  .input-area label {
+    text-lg;
+  }
+
+  button {
+    text-lg;
+  }
+
+  .form-toggle-area p {
+    text-sm;
+  }
+}

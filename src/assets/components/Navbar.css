@@ -1,0 +1,49 @@
+body{
+  background-color: #000;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  font-weight: bolder;
+color: #fff;
+font-size: 1.7rem;
+text-decoration: none;
+text-align: center;
+}
+.navbar #child1{
+  margin-top: 20px;
+  margin-left: 10%;
+  width: 20%;
+}
+.logo span {
+  color: #9CD02F;
+}
+.navbar{
+  display: flex;
+  height: 70px;
+  width: 100%;
+  color: white;
+  background-color: #111;
+  position: fixed;
+  top: 0;
+}
+
+.navbar #child2{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  cursor: pointer;
+  font-size: 19px;
+}
+#cross{
+  margin-left: 94.5%;
+  font-size: 30px;
+  background-color: #111;
+  border: none;
+  color: #9CD02F;
+}
+.navbar #child2 h4:hover{
+   color: #9CD02F;
+}

@@ -1,0 +1,52 @@
+/* src/Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/1025613000/photo/sexy-athletic-girl-working-out-in-gym-fitness-woman-doing-exercise-beautiful-butt-in-legging.jpg?s=612x612&w=0&k=20&c=_LDKL1sU8MZFD_C-XgcJymce1VdkxNrDWHupfA3LJYA='); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    width: 300px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #adff2f;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .login-form button {
+    background-color: #adff2f;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .login-form p {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  

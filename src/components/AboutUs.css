@@ -1,0 +1,64 @@
+.about-us {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: black; /* Use this if you want a dark background */
+    color: white; /* Ensure text is white for contrast */
+    padding: 40px; /* Add padding around the section */
+  }
+  
+  .about-us-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-us-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures image doesn't overflow */
+  }
+  
+  .about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+  }
+  
+  h3 {
+    color: #A4F600;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-top: 0;
+  }
+  
+  p, .benefits span {
+    color: #ccc; /* Light gray for better readability */
+  }
+  
+  .benefits {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .benefits li {
+    margin: 10px 0;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #A4F600;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px; /* Optional: rounded corners */
+  }
+  
+  .read-more:hover {
+    background-color: #89c200;
+  }
+  

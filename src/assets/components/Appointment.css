@@ -1,0 +1,90 @@
+.appointment .slide:hover .image img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.appointment .slide .image {
+  height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.appointment .slide .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.appointment .slide .content {
+  padding: 2rem;
+}
+
+.appointment .slide .content .link {
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.appointment .slide .content .link a {
+  color: #9CD02F;
+}
+
+.appointment .slide .content .link a:hover {
+  color: #fff;
+}
+
+.appointment .slide .content .link span {
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.appointment .slide .content h3 {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.appointment .slide .content p {
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+#book_appointment{
+    padding: 10px 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #9CD02F;
+    color: #fff;
+}
+#book_appointment:hover{
+    background-color: #000;
+    color: #9CD02F;
+    border: 1px solid #9CD02F;
+    cursor: pointer;
+}
+
+
+#all_appointment{
+    font-size: 15px;
+    color: #aaa;
+    
+}
+#all_appointment:hover{
+    color: #9CD02F;
+    cursor: pointer;
+}
+.cancel_appointment{
+  border-radius: 10px;
+  background-color: #9CD02F;
+  padding: 10px 20px;
+  color: white;
+  font-size: 15px;
+}
+.cancel_appointment:hover{
+  background-color: #000;
+  color: #9CD02F;
+  border: 1px solid #9CD02F;
+  cursor: pointer;
+}
