@@ -12,8 +12,9 @@ const Login = () => {
     navigate('/signup'); // Navigate to Signup page
   };
 
+  //https://capstone-project-backend-aaq1.onrender.com
   const handleLogin = async () => {
-    const response = await fetch('https://capstone-project-backend-aaq1.onrender.com', {
+    const response = await fetch('http://localhost:5000/api/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

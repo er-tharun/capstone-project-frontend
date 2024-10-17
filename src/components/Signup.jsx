@@ -18,7 +18,8 @@ const Signup = () => {
 
     try {
       // Update the URL to point to the correct signup endpoint
-      const response = await fetch('https://capstone-project-backend-aaq1.onrender.com/signup', { 
+      //https://capstone-project-backend-aaq1.onrender.com
+      const response = await fetch('http://localhost:5000/api/signup', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
